@@ -1,0 +1,35 @@
+2021-11-19T15:57:32.2979469Z Found online and idle hosted runner in the current repository's organization account that matches the required labels: 'ubuntu-latest'
+2021-11-19T15:57:32.3512017Z Waiting for a Hosted runner in the 'organization' to pick this job...
+2021-11-19T15:57:32.8968634Z Job is waiting for a hosted runner to come online.
+2021-11-19T15:57:37.0534487Z Job is about to start running on the hosted runner: GitHub Actions 2 (hosted)
+2021-11-19T15:57:40.5197610Z Current runner version: '2.284.0'
+2021-11-19T15:57:40.5229905Z ##[group]Operating System
+2021-11-19T15:57:40.5230826Z Ubuntu
+2021-11-19T15:57:40.5231310Z 20.04.3
+2021-11-19T15:57:40.5231864Z LTS
+2021-11-19T15:57:40.5232648Z ##[endgroup]
+2021-11-19T15:57:40.5233330Z ##[group]Virtual Environment
+2021-11-19T15:57:40.5233983Z Environment: ubuntu-20.04
+2021-11-19T15:57:40.5234788Z Version: 20211114.1
+2021-11-19T15:57:40.5235809Z Included Software: https://github.com/actions/virtual-environments/blob/ubuntu20/20211114.1/images/linux/Ubuntu2004-README.md
+2021-11-19T15:57:40.5237185Z Image Release: https://github.com/actions/virtual-environments/releases/tag/ubuntu20%2F20211114.1
+2021-11-19T15:57:40.5238189Z ##[endgroup]
+2021-11-19T15:57:40.5238811Z ##[group]Virtual Environment Provisioner
+2021-11-19T15:57:40.5239500Z 1.0.0.0-master-20211117-1
+2021-11-19T15:57:40.5240034Z ##[endgroup]
+2021-11-19T15:57:40.5241773Z ##[group]GITHUB_TOKEN Permissions
+2021-11-19T15:57:40.5243628Z Contents: read
+2021-11-19T15:57:40.5244340Z Metadata: read
+2021-11-19T15:57:40.5245601Z PullRequests: write
+2021-11-19T15:57:40.5246708Z ##[endgroup]
+2021-11-19T15:57:40.5252662Z Prepare workflow directory
+2021-11-19T15:57:40.5958983Z Prepare all required actions
+2021-11-19T15:57:40.5972378Z Getting action download info
+2021-11-19T15:57:40.7833402Z Download action repository 'actions/labeler@v3' (SHA:69da01b8e0929f147b8943611bee75ee4175a49e)
+2021-11-19T15:57:42.6969807Z ##[group]Run actions/labeler@v3
+2021-11-19T15:57:42.6970673Z with:
+2021-11-19T15:57:42.6972061Z   repo-token: ***
+2021-11-19T15:57:42.6972724Z   configuration-path: .github/labeler.yml
+2021-11-19T15:57:42.6973341Z   sync-labels: false
+2021-11-19T15:57:42.6974122Z ##[endgroup]
+2021-11-19T15:57:44.1815148Z Cleaning up orphan processes
